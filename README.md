@@ -1,5 +1,10 @@
 # Digital IC Design: Standard Cells & Prefix Adder Library
 
+**信号:**
+* **Inputs:** $A[15:0]$, $B[15:0]$, $C_{in}$
+* **Outputs:** $S[15:0]$, $C_{out}$
+
+
 ## 1. 晶体管逻辑门 (Basic Logic Gates)
 
 | 单元名称 | 描述 | 逻辑表达式  |
@@ -18,7 +23,6 @@
 ## 2. 前缀加法器单元 (Prefix Adder Cells)
 
 ### **GP Cell (Generate & Propagate 初始生成单元)**
-位于加法器输入级。
 
 * **输入：** `A`, `B`
 * **输出：** `g`, `p`
@@ -32,8 +36,9 @@ p &= A \oplus B
 \end{aligned}
 $$
 
+可以使用AOI21配合反相器实现
+
 ### **Black Cell (完全前缀运算单元)**
-前缀树的核心节点。
 * **输入：** `Gh`, `Ph`, `Gl`, `Pl`
 * **输出：** `Gout`, `Pout`
 
@@ -47,7 +52,6 @@ P_{out} &= P_h \cdot P_l
 $$
 
 ### **Gray Cell (半前缀运算单元)**
-只计算生成信号。
 * **输入：** `Gh`, `Ph`, `Gl`
 * **输出：** `Gout`
 
@@ -61,15 +65,8 @@ $$
 用于信号直通。
 * **输入：** `Gin`, `Pin`
 * **输出：** `Gout`, `Pout`
+* **实现：** 双反相器串联
 
-**逻辑定义：**
-
-$$
-\begin{aligned}
-G_{out} &= G_{in} \\
-P_{out} &= P_{in}
-\end{aligned}
-$$
 
 ---
 
@@ -85,12 +82,39 @@ $$
 C_{out} = G_{pre} + (P_{pre} \cdot C_{in})
 $$
 
-### **Sum Cell (求和单元)**
-* **输入：** `p`, `Ci`
-* **输出：** `Si`
+### **Sum Generator (求和单元)**
+* **输入：**
+    * $p_i$: 预处理级信号
+    * $C_{i-1}$: 前缀树上一级进位 (即 $G_{i-1:0}$)
+* **输出：** $S_i$
 
 **逻辑定义：**
 
 $$
-S_i = p_i \oplus C_i
+\begin{aligned}
+S_0 &= p_0 \oplus C_{in} \\
+S_i &= p_i \oplus C_{i-1} \quad (i > 0)
+\end{aligned}
 $$
+
+### **Final Carry Out**
+* **逻辑：** $C_{out} = G_{15:0}$ (前缀树最终输出)
+
+## 4. 进位输入
+
+在 Bit 0 处增加进位
+
+* **输入：**
+    * 来自 Bit 0: $g_0, p_0$
+    * 外部输入: $C_{in}$ (作为低位 $G$ 输入)
+* **输出：** $G_{0:0}$ (即实际的 $C_0$)
+
+**逻辑定义：**
+$$
+G_{0:0} = g_0 + (p_0 \cdot C_{in})
+$$
+
+---
+
+
+
