@@ -9,9 +9,9 @@
 
 | 单元名称 | 描述 | 逻辑表达式 | PMOS W(nm) | PMOS L(nm) | NMOS W(nm) | NMOS L(nm) |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| **INV** | 反相器 | $Y = \overline{A}$ |  |  |  |  |
-| **NAND2** | 2输入与非门 | $Y = \overline{A \cdot B}$ |  |  |  |  |
-| **AND2** | 2输入与门 | $Y = A \cdot B$ |  |  |  |  |
+| **INV** | 反相器 | $Y = \overline{A}$ | 180 | 50 | 90 | 50 |
+| **NAND2** | 2输入与非门 | $Y = \overline{A \cdot B}$ | 180 | 50 | 90 | 50 |
+| **AND2** | 2输入与门 | $Y = A \cdot B$ | 180 | 50 | 90 | 50 |
 | **NOR2** | 2输入或非门 | $Y = \overline{A + B}$ |  |  |  |  |
 | **OR2** | 2输入或门 | $Y = A + B$ |  |  |  |  |
 | **OAI21** | 2-1或与非门 | $Y = \overline{(A + B)\cdot C}$ |  |  |  |  |
