@@ -7,16 +7,16 @@
 
 ## 1. 晶体管逻辑门 (Basic Logic Gates)
 
-| 单元名称 | 描述 | 逻辑表达式  |
-| :--- | :--- | :--- |
-| **INV** | 反相器 | $Y = \overline{A}$ |
-| **NAND2** | 2输入与非门 | $Y = \overline{A \cdot B}$ |
-| **AND2** | 2输入与门 | $Y = A \cdot B$ |
-| **NOR2** | 2输入或非门 | $Y = \overline{A + B}$ |
-| **OR2** | 2输入或门 | $Y = A + B$ |
-| **XOR2** | 2输入异或门 | $Y = A \oplus B$ |
-| **XNOR2** | 2输入同或门 | $Y = \overline{A \oplus B}$ |
-| **BUFFER**| 缓冲器 | $Y = A$ |
+| 单元名称 | 描述 | 逻辑表达式 | PMOS W(nm) | PMOS L(nm) | NMOS W(nm) | NMOS L(nm) |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| **INV** | 反相器 | $Y = \overline{A}$ |  |  |  |  |
+| **NAND2** | 2输入与非门 | $Y = \overline{A \cdot B}$ |  |  |  |  |
+| **AND2** | 2输入与门 | $Y = A \cdot B$ |  |  |  |  |
+| **NOR2** | 2输入或非门 | $Y = \overline{A + B}$ |  |  |  |  |
+| **OR2** | 2输入或门 | $Y = A + B$ |  |  |  |  |
+| **XOR2** | 2输入异或门 | $Y = A \oplus B$ |  |  |  |  |
+| **XNOR2** | 2输入同或门 | $Y = \overline{A \oplus B}$ |  |  |  |  |
+| **BUFFER** | 缓冲器 | $Y = A$ |  |  |  |  |
 
 ---
 
