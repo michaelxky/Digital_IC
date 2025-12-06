@@ -14,7 +14,9 @@
 | **AND2** | 2输入与门 | $Y = A \cdot B$ |  |  |  |  |
 | **NOR2** | 2输入或非门 | $Y = \overline{A + B}$ |  |  |  |  |
 | **OR2** | 2输入或门 | $Y = A + B$ |  |  |  |  |
-| **XOR2** | 2输入异或门 | $Y = A \oplus B$ |  |  |  |  |
+| **OAI21** | 2-1或与非门 | $Y = \overline{(A + B)\cdot C}$ |  |  |  |  |
+| **AOI21** | 2-1与或非门 | $Y = \overline{(A \cdot B) + C}$ |  |  |  |  |
+| **XNOR2** | 2输入同或门 | $Y = \overline{A \oplus B}$ |  |  |  |  |
 | **XNOR2** | 2输入同或门 | $Y = \overline{A \oplus B}$ |  |  |  |  |
 | **BUFFER** | 缓冲器 | $Y = A$ |  |  |  |  |
 
