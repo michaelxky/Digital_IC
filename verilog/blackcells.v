@@ -1,9 +1,9 @@
 // merge
-module Black(G6_8,P6_8,G7_10,P7_10,G6_10,P6_10);
-  input G6_8,P6_8,G7_10,P7_10;
-  output G6_10,P6_10;
+module Black(A,B,C,D,GB,PB);
+  input A,B,C,D;
+  output GB,PB;
   wire s1 ;
-  assign s1 = P6_8 & G7_10;
-  assign G6_10=s1 | G6_8;
-  assign P6_10=P6_8 & P7_10;
+  assign s1 = B & C;
+  assign GB=s1 | A;
+  assign PB=B & D;
 endmodule
