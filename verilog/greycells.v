@@ -1,8 +1,8 @@
 // feedthrough
-module Grey(A,B,C,GG);
-  input A,B,C;
+module Grey(Gh,Ph,Gl,GG);
+  input Gh,Ph,Gl;
   output GG;
   wire s1 ;
-  assign s1 = B & C;
-  assign GG=s1 | A;
+  assign s1 = Ph & Gl;
+  assign GG=s1 | Gh;
 endmodule
