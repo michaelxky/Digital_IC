@@ -1,9 +1,12 @@
 // merge
-module Black(A,B,C,D,GB,PB);
-  input A,B,C,D;
-  output GB,PB;
-  wire s1 ;
-  assign s1 = B & C;
-  assign GB=s1 | A;
-  assign PB=B & D;
+module Black(Gh, Ph, Gl, Pl, GB, PB);
+  input Gh, Ph, Gl, Pl;
+  output GB, PB;
+
+  wire s1;
+  assign s1 = Ph & Gl;
+  assign GB = s1 | Gh;
+  assign PB = Ph & Pl;
+
 endmodule
+
