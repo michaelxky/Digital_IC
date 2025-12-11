@@ -1,5 +1,7 @@
 # Digital IC Design: Standard Cells & Prefix Adder Library
 
+[LINK: VLSI Standard Cell Library](https://www.vlsitechnology.org/html/cells/vgalib013/)
+
 **信号:**
 * **Inputs:** $A[15:0]$, $B[15:0]$, $C_{in}$
 * **Outputs:** $S[15:0]$, $C_{out}$
