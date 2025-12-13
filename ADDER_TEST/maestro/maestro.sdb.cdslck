@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dicd25088
+HostName                       es-tonga.ele.tue.nl
+ProcessIdentifier              3716884
+ProcessCreationTime_UTC        1765663714
+ProcessCreationTime_Readable   Sat Dec 13 23:08:34 2025 CET
+AppIdentifier                  /eda/cadence/2024-25/RHELx86/IC_23.10.070/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/dicd26/dicd25088/project/ADDER_TEST/maestro/maestro.sdb
+TimeEditLocked                 Sat Dec 13 23:09:46 2025 CET
