@@ -31,10 +31,22 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>/S&lt;8&gt;
+					<output>Rise—S
 						<evalType>point</evalType>
 					</output>
-					<output>/S&lt;9&gt;
+					<output>Rise—C
+						<evalType>point</evalType>
+					</output>
+					<output>Fall—S
+						<evalType>point</evalType>
+					</output>
+					<output>Fall—C
+						<evalType>point</evalType>
+					</output>
+					<output>1
+						<evalType>point</evalType>
+					</output>
+					<output>LogicCheck
 						<evalType>point</evalType>
 					</output>
 				</outputs>

@@ -1,13 +1,16 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Dec 15 18:16:51 2025 
+Current time: Mon Dec 15 23:24:18 2025 
 Best design point: 1
 Design specs: 
 	project_ADDER_TEST_1	corner	Nominal - 
+	Rise—C		72.31p
+	Fall—C		92.86p
+	LogicCheck		0
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Dec 15 18:17:26 2025 
+Current time: Mon Dec 15 23:25:08 2025 
