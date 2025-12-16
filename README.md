@@ -25,6 +25,8 @@
 | **DBUFFER** | 缓冲器 | $Y = A$ | 360/720 | 50 | 180/360| 50 |
 
 ---
+<img width="1179" height="719" alt="XOR10" src="https://github.com/user-attachments/assets/38b446d4-b8eb-48cf-ae76-2e7b6a5a4dbb" />
+<img width="1106" height="741" alt="XOR12" src="https://github.com/user-attachments/assets/dc6329c9-f55f-4777-95f8-b3100592c710" />
 
 ## 2. 前缀加法器单元 (Prefix Adder Cells)
 
