@@ -22,7 +22,7 @@
 | **Final XOR2** | 2输入异或门 | $Y = {A \oplus B}$ | 360 | 50 | 180 | 50 |
 | **First XOR2** | 2输入异或门 | $Y = {A \oplus B}$ | 180 | 50 | 90 | 50 |
 | **BUFFER** | 缓冲器 | $Y = A$ | 180 | 50 | 90 | 50 |
-| **DBUFFER** | 缓冲器 | $Y = A$ | 360/720 | 50 | 180/360| 50 |
+| **DBUFFER** | 缓冲器 | $Y = A$ | 600/1200 | 50 | 360/700| 50 |
 
 ---
 <img width="1179" height="719" alt="XOR10" src="https://github.com/user-attachments/assets/38b446d4-b8eb-48cf-ae76-2e7b6a5a4dbb" />
