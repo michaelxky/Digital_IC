@@ -31,22 +31,37 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>Rise—S
+					<output>RiseS
 						<evalType>point</evalType>
 					</output>
-					<output>Rise—C
+					<output>RiseC
 						<evalType>point</evalType>
 					</output>
-					<output>Fall—S
+					<output>FallS
 						<evalType>point</evalType>
 					</output>
-					<output>Fall—C
+					<output>FallC
 						<evalType>point</evalType>
 					</output>
 					<output>1
 						<evalType>point</evalType>
 					</output>
 					<output>LogicCheck
+						<evalType>point</evalType>
+					</output>
+					<output>MeanSRise
+						<evalType>point</evalType>
+					</output>
+					<output>MeanSFall
+						<evalType>point</evalType>
+					</output>
+					<output>max(list(riseTime(v("/S&lt;0&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;1&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;2&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;3&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;4&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;5&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;6&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;7&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;8&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;9&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;10&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;11&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;12&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;13&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;14&gt;" ?result "tran") 0 nil 1 nil 10 90) riseTime(v("/S&lt;15&gt;" ?result "tran") 0 nil 1 nil 10 90)))
+						<evalType>point</evalType>
+					</output>
+					<output>MaxRsieS
+						<evalType>point</evalType>
+					</output>
+					<output>MaxFallS
 						<evalType>point</evalType>
 					</output>
 				</outputs>
