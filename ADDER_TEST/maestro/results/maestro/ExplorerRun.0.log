@@ -1,13 +1,96 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Wed Dec 17 23:49:36 2025 
+Current time: Mon Jan  5 23:44:11 2026 
 Best design point: 1
 Design specs: 
 	project_ADDER_TEST_1	corner	Nominal - 
+	MeanSRise		72.51p
+	MaxRsieS		72.89p
+	MaxFallS		82.22p
+	MeanSFall		81.83p
+	RiseC		72.46p
+	FallC		82.13p
+	F0		72.46p
+	F1		82.13p
+	F2		72.4p
+	F3		81.81p
+	F4		72.46p
+	F5		81.8p
+	F6		72.7p
+	F7		81.84p
+	F8		72.46p
+	F9		81.79p
+	F10		72.45p
+	F11		81.8p
+	F12		72.44p
+	F13		81.82p
+	F14		72.45p
+	F15		81.78p
+	F16		72.46p
+	F17		81.79p
+	F18		72.7p
+	F19		81.8p
+	F20		72.45p
+	F21		81.79p
+	F22		72.45p
+	F23		81.8p
+	F24		72.46p
+	F25		82.22p
+	F26		72.45p
+	F27		81.8p
+	F28		72.45p
+	F29		81.83p
+	F30		72.89p
+	F31		81.8p
+	F32		72.45p
+	F33		81.8p
+	E7		0
+	E8		0
+	E9		0
+	E10		0
+	E11		0
+	E12		0
+	E13		0
+	E14		0
+	E15		0
+	E16		0
+	E17		0
+	E18		0
+	E19		0
+	E20		0
+	E21		0
+	E22		0
+	E23		0
+	E24		0
+	E25		0
+	E26		0
+	E27		0
+	E28		0
+	E29		0
+	E30		0
+	E31		0
+	E32		0
+	E33		0
+	E34		0
+	E35		0
+	E36		0
+	E37		0
+	E38		0
+	E39		0
+	E40		0
+	E41		0
+	E42		0
+	E43		0
+	E44		0
+	E45		0
+	E46		0
+	E47		0
+	E48		0
+	E49		0
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
-Number of simulation errors: 1
+Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Wed Dec 17 23:49:38 2025 
+Current time: Mon Jan  5 23:45:03 2026 

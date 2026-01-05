@@ -64,6 +64,9 @@
 					<output>MaxFallS
 						<evalType>point</evalType>
 					</output>
+					<output>delay(?wf1 v("/A&lt;0&gt;" ?result "tran") ?value1 0.5 ?edge1 "either" ?nth1 1 ?td1 0 ?tol1 nil ?wf2 v("/S&lt;0&gt;" ?result "tran") ?value2 0.5 ?edge2 "either" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
