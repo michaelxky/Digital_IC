@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "DBUFFER"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/dicd26/dicd25088/project/DBUFFER/lvs"
+ )
+( model
+( "project/DBUFFER/schematic" "DBUFFER" )
+ )
+( "DBUFFER" "ihnl/cds0/map" )
+ )

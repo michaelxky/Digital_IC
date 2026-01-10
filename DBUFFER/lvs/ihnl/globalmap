@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+project/DBUFFER/schematic DBUFFER
+$endmodel
+$net
+$endnet
+$param
+$endparam
