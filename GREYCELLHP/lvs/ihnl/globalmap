@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+project/AOI21/schematic AOI21
+project/INV/schematic INV
+project/GREYCELLHP/schematic GREYCELLHP
+$endmodel
+$net
+$endnet
+$param
+$endparam
