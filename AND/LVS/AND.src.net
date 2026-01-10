@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: AND
+* View Name:     schematic
+* Netlisted on:  Jan  9 22:10:58 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MM4 OUT net2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 net2 A VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net2 B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 OUT net2 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 net1 B GND GND NMOS_VTG W=90n L=50n m=1
+MM2 net2 A net1 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+

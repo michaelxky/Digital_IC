@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1767993059 1767993059
+lvs_ExtOutFile RUNDIR /home/dicd26/dicd25083/project/AND/LVS
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST AND.sp
+lvs_ExtOutFile EXTRACTION_REPORT AND.lvs.report.ext

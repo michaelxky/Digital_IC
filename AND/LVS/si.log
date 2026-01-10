@@ -1,0 +1,9 @@
+2026/01/09 22:10:46 WARNING (/opt/tools/cadence/2024-25/RHELx86/IC_23.10.070/tools.lnx86/bin/cdnsEnvCheck): This OS does not appear to be a Cadence supported Linux configuration (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP to suppress). For more info, please run <cdsroot>/tools/bin/checkSysConf <productId>
+
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 2.61s.
+
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+
+End netlisting Jan  9 22:10:58 2026
+
