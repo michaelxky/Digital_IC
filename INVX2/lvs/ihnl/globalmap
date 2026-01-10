@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+project/INVX2/schematic INVX2
+$endmodel
+$net
+$endnet
+$param
+$endparam

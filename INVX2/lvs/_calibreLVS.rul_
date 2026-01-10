@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Sat Jan 10 00:11:22 2026
+//  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "INVX2.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "INVX2"
+
+SOURCE PATH "INVX2.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "INVX2"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "INVX2.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "INVX2.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/tools/technology/ncsu/FreePDK45/ncsu_basekit/techfile/calibre/calibreLVS.rul"

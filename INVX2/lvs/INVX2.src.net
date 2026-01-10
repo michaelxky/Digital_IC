@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: INVX2
+* View Name:     schematic
+* Netlisted on:  Jan 10 00:11:22 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    INVX2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX2 GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM0 OUT IN VDD VDD PMOS_VTG W=600n L=50n m=1
+MM1 OUT IN GND GND NMOS_VTG W=360.0n L=50n m=1
+.ENDS
+
