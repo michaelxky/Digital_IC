@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Fri Jan 9 19:53:17 2026
+//  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "AOI21.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "AOI21"
+
+SOURCE PATH "AOI21.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "AOI21"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "AOI21.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "AOI21.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/tools/technology/ncsu/FreePDK45/ncsu_basekit/techfile/calibre/calibreLVS.rul"

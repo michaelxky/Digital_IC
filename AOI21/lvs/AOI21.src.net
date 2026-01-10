@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: AOI21
+* View Name:     schematic
+* Netlisted on:  Jan  9 19:53:17 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AOI21
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AOI21 A1 A2 B GND OUT VDD
+*.PININFO A1:I A2:I B:I OUT:O GND:B VDD:B
+MM2 net1 B OUT VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 VDD A1 net1 VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net1 A2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 GND B OUT GND NMOS_VTG W=90n L=50n m=1
+MM4 net13 A1 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 OUT A2 net13 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
