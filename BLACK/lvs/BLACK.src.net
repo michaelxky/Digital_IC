@@ -1,0 +1,73 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: BLACK
+* View Name:     schematic
+* Netlisted on:  Jan 11 20:05:56 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AOI21
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AOI21 A1 A2 B GND OUT VDD
+*.PININFO A1:I A2:I B:I OUT:O GND:B VDD:B
+MM2 net1 B OUT VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 VDD A1 net1 VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net1 A2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 GND B OUT GND NMOS_VTG W=90n L=50n m=1
+MM4 net13 A1 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 OUT A2 net13 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    INV
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM0 OUT IN VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 OUT IN GND GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MM4 OUT net2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 net2 A VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net2 B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 OUT net2 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 net1 B GND GND NMOS_VTG W=90n L=50n m=1
+MM2 net2 A net1 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    BLACK
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BLACK GND Gh Gl Gout Ph Pl Pout VDD
+*.PININFO Gh:I Gl:I Ph:I Pl:I Gout:O Pout:O GND:B VDD:B
+XI0 Ph Gl Gh GND net4 VDD / AOI21
+XI4 GND net4 Gout VDD / INV
+XI3 Ph Pl GND Pout VDD / AND
+.ENDS
+

@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+project/BLACK/schematic BLACK
+project/AOI21/schematic AOI21
+project/INV/schematic INV
+project/AND/schematic AND
+$endmodel
+$net
+$endnet
+$param
+$endparam

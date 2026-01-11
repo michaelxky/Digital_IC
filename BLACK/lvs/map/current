@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "BLACK"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/dicd26/dicd25083/project/BLACK/lvs"
+ )
+( model
+( "project/AOI21/schematic" "AOI21" )
+( "project/BLACK/schematic" "BLACK" )
+( "project/AND/schematic" "AND" )
+( "project/INV/schematic" "INV" )
+ )
+( "AOI21" "ihnl/cds0/map" )
+( "BLACK" "ihnl/cds3/map" )
+( "AND" "ihnl/cds2/map" )
+( "INV" "ihnl/cds1/map" )
+ )

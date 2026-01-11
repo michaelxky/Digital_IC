@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1768158357 1768158358
+lvs_ExtOutFile RUNDIR /home/dicd26/dicd25083/project/BLACK/lvs
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST BLACK.sp
+lvs_ExtOutFile EXTRACTION_REPORT BLACK.lvs.report.ext
