@@ -2,10 +2,10 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 13-Jan-2026  16:52:34
-User Name : dicd25088
-Host Name : es-tonga.ele.tue.nl
-Directory : /home/dicd26/dicd25088
+Started at: 13-Jan-2026  21:01:29
+User Name : dicd25083
+Host Name : ti.ics.ele.tue.nl
+Directory : /home/dicd26/dicd25083
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-project/ADDER/layout            0        0       0        6596   0      0         0      0             0      0     0     0       0       
+project/ADDER/layout            0        0       0        6647   0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -44,10 +44,10 @@ via1            drawing         12      0         0        561      0        0  
 metal2          drawing         13      0         0        435      0        0        0             0    0   0   0     0      0      
 metal2          net             13      253       0        32       0        0        0             0    0   0   0     0      0      
 via2            drawing         14      0         0        202      0        0        0             0    0   0   0     0      0      
-metal3          drawing         15      0         0        340      0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        367      0        0        0             0    0   0   0     0      0      
 metal3          net             15      253       0        64       0        0        0             0    0   0   0     0      0      
-via3            drawing         16      0         0        67       0        0        0             0    0   0   0     0      0      
-metal4          drawing         17      0         0        59       0        0        0             0    0   0   0     0      0      
+via3            drawing         16      0         0        65       0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        85       0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -55,7 +55,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			6596
+	Rectangles:			6647
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -77,4 +77,4 @@ Summary of Objects Translated:
 	Cells:				1
 Design Libraries: 
 
-DEFINE project	/home/dicd26/dicd25088/project
+DEFINE project	/home/dicd26/dicd25083/project

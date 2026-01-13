@@ -3,15 +3,15 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Jan 13 16:52:35 2026
+Execution Date/Time:       Tue Jan 13 21:01:30 2026
 Calibre Version:           v2023.4_17.10    Mon Oct 2 13:59:22 PDT 2023
 Rule File Pathname:        _calibreDRC.rul_
 Rule File Title:           
 Layout System:             GDS
 Layout Path(s):            ADDER.calibre.db
 Layout Primary Cell:       ADDER
-Current Directory:         /home/dicd26/dicd25088/project/ADDER/drc
-User Name:                 dicd25088
+Current Directory:         /home/dicd26/dicd25083/project/ADDER/drc
+User Name:                 dicd25083
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
 DRC Results Database:      ADDER.drc.results (ASCII)
@@ -41,8 +41,8 @@ LAYER vtg ........ TOTAL Original Geometry Count = 280  (280)
 LAYER metal1 ..... TOTAL Original Geometry Count = 1427 (1427)
 LAYER contact .... TOTAL Original Geometry Count = 1529 (1529)
 LAYER metal2 ..... TOTAL Original Geometry Count = 467  (467)
-LAYER metal3 ..... TOTAL Original Geometry Count = 404  (404)
-LAYER metal4 ..... TOTAL Original Geometry Count = 59   (59)
+LAYER metal3 ..... TOTAL Original Geometry Count = 431  (431)
+LAYER metal4 ..... TOTAL Original Geometry Count = 85   (85)
 LAYER metal5 ..... TOTAL Original Geometry Count = 0    (0)
 LAYER metal6 ..... TOTAL Original Geometry Count = 0    (0)
 LAYER metal7 ..... TOTAL Original Geometry Count = 0    (0)
@@ -51,7 +51,7 @@ LAYER metal9 ..... TOTAL Original Geometry Count = 0    (0)
 LAYER metal10 .... TOTAL Original Geometry Count = 0    (0)
 LAYER via1 ....... TOTAL Original Geometry Count = 561  (561)
 LAYER via2 ....... TOTAL Original Geometry Count = 202  (202)
-LAYER via3 ....... TOTAL Original Geometry Count = 67   (67)
+LAYER via3 ....... TOTAL Original Geometry Count = 65   (65)
 LAYER via4 ....... TOTAL Original Geometry Count = 0    (0)
 LAYER via5 ....... TOTAL Original Geometry Count = 0    (0)
 LAYER via6 ....... TOTAL Original Geometry Count = 0    (0)
@@ -236,6 +236,6 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 6596 (6596)
+TOTAL Original Layer Geometries: 6647 (6647)
 TOTAL DRC RuleChecks Executed:   167
 TOTAL DRC Results Generated:     0 (0)
