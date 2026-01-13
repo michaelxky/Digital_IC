@@ -3,21 +3,21 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Jan 13 15:10:28 2026
+Execution Date/Time:       Tue Jan 13 15:39:38 2026
 Calibre Version:           v2023.4_17.10    Mon Oct 2 13:59:22 PDT 2023
 Rule File Pathname:        _calibreDRC.rul_
 Rule File Title:           
 Layout System:             GDS
-Layout Path(s):            GREYCELLHP.calibre.db
-Layout Primary Cell:       GREYCELLHP
+Layout Path(s):            ADDER.calibre.db
+Layout Primary Cell:       ADDER
 Current Directory:         /home/dicd26/dicd25088/project/GREYCELLHP/drc
 User Name:                 dicd25088
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
-DRC Results Database:      GREYCELLHP.drc.results (ASCII)
+DRC Results Database:      ADDER.drc.results (ASCII)
 Layout Depth:              ALL
 Text Depth:                PRIMARY
-Summary Report File:       GREYCELLHP.drc.summary (REPLACE)
+Summary Report File:       ADDER.drc.summary (REPLACE)
 Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
                            NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Excluded Cells:           
@@ -30,39 +30,39 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER pwell ...... TOTAL Original Geometry Count = 2  (2)
-LAYER nwell ...... TOTAL Original Geometry Count = 2  (2)
-LAYER active ..... TOTAL Original Geometry Count = 8  (8)
-LAYER poly ....... TOTAL Original Geometry Count = 8  (8)
-LAYER pimplant ... TOTAL Original Geometry Count = 4  (4)
-LAYER nimplant ... TOTAL Original Geometry Count = 3  (3)
-LAYER vth ........ TOTAL Original Geometry Count = 0  (0)
-LAYER vtg ........ TOTAL Original Geometry Count = 4  (4)
-LAYER metal1 ..... TOTAL Original Geometry Count = 21 (21)
-LAYER contact .... TOTAL Original Geometry Count = 27 (27)
-LAYER metal2 ..... TOTAL Original Geometry Count = 4  (4)
-LAYER metal3 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal4 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal5 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal6 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal7 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal8 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal9 ..... TOTAL Original Geometry Count = 0  (0)
-LAYER metal10 .... TOTAL Original Geometry Count = 0  (0)
-LAYER via1 ....... TOTAL Original Geometry Count = 4  (4)
-LAYER via2 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via3 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via4 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via5 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via6 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via7 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via8 ....... TOTAL Original Geometry Count = 0  (0)
-LAYER via9 ....... TOTAL Original Geometry Count = 0  (0)
+LAYER pwell ...... TOTAL Original Geometry Count = 39   (39)
+LAYER nwell ...... TOTAL Original Geometry Count = 39   (39)
+LAYER active ..... TOTAL Original Geometry Count = 536  (536)
+LAYER poly ....... TOTAL Original Geometry Count = 478  (478)
+LAYER pimplant ... TOTAL Original Geometry Count = 268  (268)
+LAYER nimplant ... TOTAL Original Geometry Count = 267  (267)
+LAYER vth ........ TOTAL Original Geometry Count = 0    (0)
+LAYER vtg ........ TOTAL Original Geometry Count = 284  (284)
+LAYER metal1 ..... TOTAL Original Geometry Count = 1448 (1448)
+LAYER contact .... TOTAL Original Geometry Count = 1556 (1556)
+LAYER metal2 ..... TOTAL Original Geometry Count = 470  (470)
+LAYER metal3 ..... TOTAL Original Geometry Count = 409  (409)
+LAYER metal4 ..... TOTAL Original Geometry Count = 60   (60)
+LAYER metal5 ..... TOTAL Original Geometry Count = 0    (0)
+LAYER metal6 ..... TOTAL Original Geometry Count = 0    (0)
+LAYER metal7 ..... TOTAL Original Geometry Count = 0    (0)
+LAYER metal8 ..... TOTAL Original Geometry Count = 0    (0)
+LAYER metal9 ..... TOTAL Original Geometry Count = 0    (0)
+LAYER metal10 .... TOTAL Original Geometry Count = 0    (0)
+LAYER via1 ....... TOTAL Original Geometry Count = 575  (575)
+LAYER via2 ....... TOTAL Original Geometry Count = 205  (205)
+LAYER via3 ....... TOTAL Original Geometry Count = 70   (70)
+LAYER via4 ....... TOTAL Original Geometry Count = 0    (0)
+LAYER via5 ....... TOTAL Original Geometry Count = 0    (0)
+LAYER via6 ....... TOTAL Original Geometry Count = 0    (0)
+LAYER via7 ....... TOTAL Original Geometry Count = 0    (0)
+LAYER via8 ....... TOTAL Original Geometry Count = 0    (0)
+LAYER via9 ....... TOTAL Original Geometry Count = 0    (0)
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS
 ---
 RULECHECK Well.1 ............ TOTAL Result Count = 0 (0)
-RULECHECK Well.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK Well.2 ............ TOTAL Result Count = 2 (2)
 RULECHECK Well.4 ............ TOTAL Result Count = 0 (0)
 RULECHECK Poly.1 ............ TOTAL Result Count = 0 (0)
 RULECHECK Poly.2 ............ TOTAL Result Count = 0 (0)
@@ -71,12 +71,12 @@ RULECHECK Poly.4 ............ TOTAL Result Count = 0 (0)
 RULECHECK Poly.5 ............ TOTAL Result Count = 0 (0)
 RULECHECK Poly.6 ............ TOTAL Result Count = 0 (0)
 RULECHECK Active.1 .......... TOTAL Result Count = 0 (0)
-RULECHECK Active.2 .......... TOTAL Result Count = 0 (0)
+RULECHECK Active.2 .......... TOTAL Result Count = 2 (2)
 RULECHECK Active.3 .......... TOTAL Result Count = 0 (0)
 RULECHECK Active.4 .......... TOTAL Result Count = 0 (0)
 RULECHECK Implant.1 ......... TOTAL Result Count = 0 (0)
 RULECHECK Implant.2 ......... TOTAL Result Count = 0 (0)
-RULECHECK Implant.3 ......... TOTAL Result Count = 0 (0)
+RULECHECK Implant.3 ......... TOTAL Result Count = 2 (2)
 RULECHECK Implant.4 ......... TOTAL Result Count = 0 (0)
 RULECHECK Implant.6 ......... TOTAL Result Count = 0 (0)
 RULECHECK Contact.1 ......... TOTAL Result Count = 0 (0)
@@ -86,13 +86,13 @@ RULECHECK Contact.4 ......... TOTAL Result Count = 0 (0)
 RULECHECK Contact.5 ......... TOTAL Result Count = 0 (0)
 RULECHECK Contact.6 ......... TOTAL Result Count = 0 (0)
 RULECHECK Metal1.1 .......... TOTAL Result Count = 0 (0)
-RULECHECK Metal1.2 .......... TOTAL Result Count = 0 (0)
+RULECHECK Metal1.2 .......... TOTAL Result Count = 2 (2)
 RULECHECK Metal1.3 .......... TOTAL Result Count = 0 (0)
-RULECHECK Metal1.4 .......... TOTAL Result Count = 0 (0)
+RULECHECK Metal1.4 .......... TOTAL Result Count = 1 (1)
 RULECHECK Via1.1 ............ TOTAL Result Count = 0 (0)
-RULECHECK Via1.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK Via1.2 ............ TOTAL Result Count = 1 (1)
 RULECHECK Via1.3 ............ TOTAL Result Count = 0 (0)
-RULECHECK Via1.4 ............ TOTAL Result Count = 0 (0)
+RULECHECK Via1.4 ............ TOTAL Result Count = 5 (5)
 RULECHECK Metal2.1 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal2.2 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal2.3 .......... TOTAL Result Count = 0 (0)
@@ -109,7 +109,7 @@ RULECHECK Via3.1 ............ TOTAL Result Count = 0 (0)
 RULECHECK Via3.2 ............ TOTAL Result Count = 0 (0)
 RULECHECK Via3.3 ............ TOTAL Result Count = 0 (0)
 RULECHECK Via3.4 ............ TOTAL Result Count = 0 (0)
-RULECHECK Metal4.1 .......... TOTAL Result Count = 0 (0)
+RULECHECK Metal4.1 .......... TOTAL Result Count = 1 (1)
 RULECHECK Metal4.2 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal4.3 .......... TOTAL Result Count = 0 (0)
 RULECHECK Via4.1 ............ TOTAL Result Count = 0 (0)
@@ -154,12 +154,12 @@ RULECHECK Via9.4 ............ TOTAL Result Count = 0 (0)
 RULECHECK Metal10.1 ......... TOTAL Result Count = 0 (0)
 RULECHECK Metal10.2 ......... TOTAL Result Count = 0 (0)
 RULECHECK Metal10.3 ......... TOTAL Result Count = 0 (0)
-RULECHECK Metal1.5 .......... TOTAL Result Count = 0 (0)
+RULECHECK Metal1.5 .......... TOTAL Result Count = 1 (1)
 RULECHECK Metal1.6 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal1.7 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal1.8 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal1.9 .......... TOTAL Result Count = 0 (0)
-RULECHECK Metal2.5 .......... TOTAL Result Count = 0 (0)
+RULECHECK Metal2.5 .......... TOTAL Result Count = 1 (1)
 RULECHECK Metal2.6 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal2.7 .......... TOTAL Result Count = 0 (0)
 RULECHECK Metal2.8 .......... TOTAL Result Count = 0 (0)
@@ -231,11 +231,22 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
+CELL ADDER ................ TOTAL Result Count = 18 (18)
+    RULECHECK Well.2 ...... TOTAL Result Count = 2  (2)
+    RULECHECK Active.2 .... TOTAL Result Count = 2  (2)
+    RULECHECK Implant.3 ... TOTAL Result Count = 2  (2)
+    RULECHECK Metal1.2 .... TOTAL Result Count = 2  (2)
+    RULECHECK Metal1.4 .... TOTAL Result Count = 1  (1)
+    RULECHECK Via1.2 ...... TOTAL Result Count = 1  (1)
+    RULECHECK Via1.4 ...... TOTAL Result Count = 5  (5)
+    RULECHECK Metal4.1 .... TOTAL Result Count = 1  (1)
+    RULECHECK Metal1.5 .... TOTAL Result Count = 1  (1)
+    RULECHECK Metal2.5 .... TOTAL Result Count = 1  (1)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 87 (87)
+TOTAL Original Layer Geometries: 6704 (6704)
 TOTAL DRC RuleChecks Executed:   167
-TOTAL DRC Results Generated:     0 (0)
+TOTAL DRC Results Generated:     18 (18)

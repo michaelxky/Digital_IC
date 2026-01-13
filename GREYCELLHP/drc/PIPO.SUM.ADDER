@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 13-Jan-2026  16:52:34
+Started at: 13-Jan-2026  15:39:37
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-project/ADDER/layout            0        0       0        6596   0      0         0      0             0      0     0     0       0       
+project/ADDER/layout            0        0       0        6704   0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -30,24 +30,24 @@ project/ADDER/layout            0        0          0          0          0     
 Cadence         Cadence         Stream  Stream   
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
-pwell           drawing         2       0         0        37       0        0        0             0    0   0   0     0      0      
-nwell           drawing         3       0         0        37       0        0        0             0    0   0   0     0      0      
-vtg             drawing         6       0         0        280      0        0        0             0    0   0   0     0      0      
-active          drawing         1       0         0        528      0        0        0             0    0   0   0     0      0      
-nimplant        drawing         4       0         0        264      0        0        0             0    0   0   0     0      0      
-pimplant        drawing         5       0         0        264      0        0        0             0    0   0   0     0      0      
-poly            drawing         9       0         0        470      0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        1529     0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        1142     0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        39       0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        39       0        0        0             0    0   0   0     0      0      
+vtg             drawing         6       0         0        284      0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        536      0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        267      0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        268      0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        478      0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        1556     0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        1163     0        0        0             0    0   0   0     0      0      
 metal1          net             11      253       0        285      0        0        0             0    0   0   0     0      0      
-via1            drawing         12      0         0        561      0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        435      0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        575      0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        438      0        0        0             0    0   0   0     0      0      
 metal2          net             13      253       0        32       0        0        0             0    0   0   0     0      0      
-via2            drawing         14      0         0        202      0        0        0             0    0   0   0     0      0      
-metal3          drawing         15      0         0        340      0        0        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        205      0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        345      0        0        0             0    0   0   0     0      0      
 metal3          net             15      253       0        64       0        0        0             0    0   0   0     0      0      
-via3            drawing         16      0         0        67       0        0        0             0    0   0   0     0      0      
-metal4          drawing         17      0         0        59       0        0        0             0    0   0   0     0      0      
+via3            drawing         16      0         0        70       0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        60       0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -55,7 +55,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			6596
+	Rectangles:			6704
 	Lines:				0
 	Arcs:				0
 	Donuts:				0

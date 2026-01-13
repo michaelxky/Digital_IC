@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 10-Jan-2026  13:36:05
+Started at: 13-Jan-2026  15:10:27
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-project/GREYCELLHP/layout       0        0       0        85     0      0         0      0             0      0     0     0       0       
+project/GREYCELLHP/layout       0        0       0        87     0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -34,12 +34,13 @@ pwell           drawing         2       0         0        2        0        0  
 nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
 vtg             drawing         6       0         0        4        0        0        0             0    0   0   0     0      0      
 active          drawing         1       0         0        8        0        0        0             0    0   0   0     0      0      
-nimplant        drawing         4       0         0        4        0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        3        0        0        0             0    0   0   0     0      0      
 pimplant        drawing         5       0         0        4        0        0        0             0    0   0   0     0      0      
 poly            drawing         9       0         0        8        0        0        0             0    0   0   0     0      0      
 contact         drawing         10      0         0        27       0        0        0             0    0   0   0     0      0      
 metal1          drawing         11      0         0        21       0        0        0             0    0   0   0     0      0      
-metal1          net             11      253       0        5        0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        4        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        4        0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -47,7 +48,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			85
+	Rectangles:			87
 	Lines:				0
 	Arcs:				0
 	Donuts:				0

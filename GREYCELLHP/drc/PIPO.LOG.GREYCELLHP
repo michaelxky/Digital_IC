@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 10-Jan-2026  13:36:05
+Started at: 13-Jan-2026  15:10:27
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -35,7 +35,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             85
+	Rectangles:                             87
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -56,5 +56,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 6.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 30764KB
+Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 30788KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
