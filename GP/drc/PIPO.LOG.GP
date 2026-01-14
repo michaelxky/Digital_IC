@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 14-Jan-2026  17:33:20
+Started at: 14-Jan-2026  14:41:51
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -10,32 +10,32 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/dicd26/dicd25088/project/ADDER/drc/ADDER.calibre.db' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/dicd26/dicd25088/project/GP/drc/GP.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
 INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
 
 Summary of Options :
 library                                 project
-strmFile                                /home/dicd26/dicd25088/project/ADDER/drc/ADDER.calibre.db
-topCell                                 ADDER
+strmFile                                /home/dicd26/dicd25088/project/GP/drc/GP.calibre.db
+topCell                                 GP
 view                                    layout
-runDir                                  /home/dicd26/dicd25088/project/ADDER/drc/
-logFile                                 PIPO.LOG.ADDER
-summaryFile                             PIPO.SUM.ADDER
+runDir                                  /home/dicd26/dicd25088/project/GP/drc/
+logFile                                 PIPO.LOG.GP
+summaryFile                             PIPO.SUM.GP
 case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating cellview project/ADDER/layout as STRUCTURE ADDER.
+INFO (XSTRM-223): 1. Translating cellview project/GP/layout as STRUCTURE GP.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             32783
+	Rectangles:                             222
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -53,8 +53,8 @@ Summary of Objects Translated:
 	CdsGen Vias:                            0
 	Pathsegs:                               0
 	Text:                                   0
-	TextDisplay:                            0
+	TextDisplay:                            6
 	Cells:                                  1
 
-Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 31980KB
+Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 30988KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

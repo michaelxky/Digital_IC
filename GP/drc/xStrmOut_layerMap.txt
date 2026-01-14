@@ -8,12 +8,17 @@
 
  nimplant  drawing  4  0 
  nwell  drawing  3  0 
+ metal2  net  13  253 
  metal2  drawing  13  0 
+ metal1  net  11  253 
  pwell  drawing  2  0 
  metal1  drawing  11  0 
+ via2  drawing  14  0 
  via1  drawing  12  0 
  poly  drawing  9  0 
  contact  drawing  10  0 
  vtg  drawing  6  0 
  pimplant  drawing  5  0 
+ metal3  drawing  15  0 
+ metal3  net  15  253 
  active  drawing  1  0 

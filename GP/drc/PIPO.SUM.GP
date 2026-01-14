@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 14-Jan-2026  15:01:53
+Started at: 14-Jan-2026  14:41:51
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -15,14 +15,14 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-project/GREYCELLHP/layout       0        0       0        92     0      0         0      0             0      0     0     0       0       
+project/GP/layout               0        0       0        222    0      0         0      6             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 --------------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
 --------------------------------------------------------------------------------------------------------------------------------------------
-project/GREYCELLHP/layout       0        0          0          0          0          0     0        0        0         0         0        
+project/GP/layout               0        0          0          0          0          0     0        0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 
@@ -32,15 +32,20 @@ Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Tex
 ---------------------------------------------------------------------------------------------------------------------------------------
 pwell           drawing         2       0         0        1        0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        1        0        0        0             0    0   0   0     0      0      
-vtg             drawing         6       0         0        4        0        0        0             0    0   0   0     0      0      
-active          drawing         1       0         0        6        0        0        0             0    0   0   0     0      0      
-nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
-pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
-poly            drawing         9       0         0        8        0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        27       0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        21       0        0        0             0    0   0   0     0      0      
-via1            drawing         12      0         0        14       0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        6        0        0        0             0    0   0   0     0      0      
+vtg             drawing         6       0         0        10       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        18       0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        9        0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        9        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        16       0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        49       0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        40       0        0        0             0    0   0   0     0      0      
+metal1          net             11      253       0        10       0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        20       0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        17       0        0        0             0    0   0   0     0      0      
+metal2          net             13      253       0        2        0        0        2             0    0   0   0     0      0      
+via2            drawing         14      0         0        6        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        10       0        0        0             0    0   0   0     0      0      
+metal3          net             15      253       0        4        0        0        4             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -48,7 +53,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			92
+	Rectangles:			222
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -66,7 +71,7 @@ Summary of Objects Translated:
 	CdsGen Vias:			0
 	Pathsegs:			0
 	Text:				0
-	TextDisplay:		0
+	TextDisplay:		6
 	Cells:				1
 Design Libraries: 
 

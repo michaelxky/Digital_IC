@@ -1,19 +1,19 @@
 //
-//  Rule file generated on Wed Jan 14 15:06:12 2026
+//  Rule file generated on Wed Jan 14 14:41:51 2026
 //  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "BLACK.calibre.db"
+LAYOUT PATH "GP.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "BLACK"
+LAYOUT PRIMARY "GP"
 
-DRC RESULTS DATABASE "BLACK.drc.results" ASCII
+DRC RESULTS DATABASE "GP.drc.results" ASCII
 DRC CELL NAME YES CELL SPACE XFORM
 
-DRC SUMMARY REPORT "BLACK.drc.summary" REPLACE HIER
+DRC SUMMARY REPORT "GP.drc.summary" REPLACE HIER
 
 DRC MAXIMUM RESULTS 1000
 
