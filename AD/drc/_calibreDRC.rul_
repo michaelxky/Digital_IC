@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Wed Jan 14 17:33:20 2026
+//  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "ADDER.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "ADDER"
+
+DRC RESULTS DATABASE "ADDER.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "ADDER.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/tools/technology/ncsu/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
