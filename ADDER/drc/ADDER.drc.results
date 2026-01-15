@@ -1,991 +1,669 @@
 ADDER 2000
 Well.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Nwell and Pwell must not overlap
 Well.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Min spacing of pwell to nwell = 0.225
 Well.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Min width of well = 0.2
 Poly.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Min width of poly = 0.05
 Poly.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Min spacing of gate poly = 0.14
 Poly.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Min extension of poly past active = 0.05
 Poly.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum active enclosure of gate = 0.07
 Poly.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of poly to active = 0.05
 Poly.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of field poly = 0.075
 Active.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of active = 0.09
 Active.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of active areas =  0.08
 Active.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum well enclosure of active = 0.055
 Active.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Active must be inside well
 Implant.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of implant to gate = 0.07
 Implant.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of implant to contact = 0.025
 Implant.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of implant = 0.045
 Implant.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of implant = 0.045
 Implant.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Nimplant and pimplant must not overlap
 Contact.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of contact = 0.065
 Contact.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of contact = 0.075
 Contact.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Contact must be inside metal1 and active or poly
 Contact.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum active enclosure of contact = 0.005
 Contact.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum poly enclosure of contact = 0.005
 Contact.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of contact to poly = 0.035
 Metal1.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal1 = 0.065
 Metal1.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 = 0.065
 Metal1.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal1 must extend past contact by 0.035 on two opposite sides
 Metal1.4
-2 2 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal1 must extend past via1 by 0.035 on two opposite sides
-p 1 8
-CN ADDER c 1 0 0 1 0 0 0
-72825 -85725
-72970 -85725
-72970 -85710
-72975 -85710
-72975 -85580
-72845 -85580
-72845 -85595
-72825 -85595
-p 2 8
-94810 -88365
-94940 -88365
-94940 -88350
-94950 -88350
-94950 -88220
-94820 -88220
-94820 -88235
-94810 -88235
 Via1.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via1 = 0.065
 Via1.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via1 = 0.075
 Via1.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via1 must be inside metal1
 Via1.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via1 must be inside metal2
 Metal2.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal2 = 0.07
 Metal2.2
-2 2 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 = 0.07
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-82155 -83563 82155 -83410
-82280 -83500 82280 -83347
-e 2 2
-99472 -88550 99763 -88550
-99535 -88425 99700 -88425
 Metal2.3
-2 2 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal2 must extend past via1 by 0.035 on two opposite sides
-p 1 8
-CN ADDER c 1 0 0 1 0 0 0
-72825 -85725
-72970 -85725
-72970 -85710
-72975 -85710
-72975 -85580
-72845 -85580
-72845 -85595
-72825 -85595
-p 2 8
-94810 -88365
-94940 -88365
-94940 -88350
-94950 -88350
-94950 -88220
-94820 -88220
-94820 -88235
-94810 -88235
 Metal2.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal2 must extend past via2 by 0.035 on two opposite sides
 Via2.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via2 = 0.07
 Via2.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via2 = 0.085
 Via2.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via2 must be inside metal2
 Via2.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via2 must be inside metal3
 Metal3.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal3 = 0.07
 Metal3.2
-1 1 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 = 0.07
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-84208 -85885 84532 -85885
-84295 -85775 84445 -85775
 Metal3.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal3 must extend past via2 by 0.035 on two opposite sides
 Metal3.4
-1 1 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Metal3 must extend past via3 by 0.035 on two opposite sides
-p 1 8
-CN ADDER c 1 0 0 1 0 0 0
-87020 -83785
-87195 -83785
-87195 -83610
-87175 -83610
-87175 -83505
-87045 -83505
-87045 -83610
-87020 -83610
 Via3.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via3 = 0.07
 Via3.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via3 = 0.085
 Via3.3
-1 1 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via3 must be inside metal3
-p 1 4
-CN ADDER c 1 0 0 1 0 0 0
-90060 -87580
-90190 -87580
-90190 -87450
-90060 -87450
 Via3.4
-29 29 2 Jan 15 04:57:53 2026                   
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via3 must be inside metal4
-p 1 4
-CN ADDER c 1 0 0 1 0 0 0
-33385 -90700
-33515 -90700
-33515 -90570
-33385 -90570
-p 2 4
-42885 -90700
-43015 -90700
-43015 -90570
-42885 -90570
-p 3 4
-47640 -90700
-47770 -90700
-47770 -90570
-47640 -90570
-p 4 4
-57140 -90700
-57270 -90700
-57270 -90570
-57140 -90570
-p 5 4
-66645 -90700
-66775 -90700
-66775 -90570
-66645 -90570
-p 6 4
-70555 -83635
-70685 -83635
-70685 -83505
-70555 -83505
-p 7 4
-71060 -85690
-71190 -85690
-71190 -85560
-71060 -85560
-p 8 4
-71390 -90700
-71520 -90700
-71520 -90570
-71390 -90570
-p 9 4
-73745 -85705
-73875 -85705
-73875 -85575
-73745 -85575
-p 10 4
-75305 -83635
-75435 -83635
-75435 -83505
-75305 -83505
-p 11 4
-76145 -90700
-76275 -90700
-76275 -90570
-76145 -90570
-p 12 4
-77595 -85705
-77725 -85705
-77725 -85575
-77595 -85575
-p 13 4
-80570 -85690
-80700 -85690
-80700 -85560
-80570 -85560
-p 14 4
-80890 -90700
-81020 -90700
-81020 -90570
-80890 -90570
-p 15 4
-82345 -85705
-82475 -85705
-82475 -85575
-82345 -85575
-p 16 4
-82865 -88340
-82995 -88340
-82995 -88210
-82865 -88210
-p 17 4
-82865 -85705
-82995 -85705
-82995 -85575
-82865 -85575
-p 18 4
-84315 -88425
-84445 -88425
-84445 -88295
-84315 -88295
-p 19 4
-85645 -90700
-85775 -90700
-85775 -90570
-85645 -90570
-p 20 4
-85930 -85945
-86060 -85945
-86060 -85815
-85930 -85815
-p 21 4
-85935 -88100
-86065 -88100
-86065 -87970
-85935 -87970
-p 22 4
-90395 -90700
-90525 -90700
-90525 -90570
-90395 -90570
-p 23 4
-90685 -85945
-90815 -85945
-90815 -85815
-90685 -85815
-p 24 4
-94820 -85690
-94950 -85690
-94950 -85560
-94820 -85560
-p 25 4
-95145 -90700
-95275 -90700
-95275 -90570
-95145 -90570
-p 26 4
-99570 -85690
-99700 -85690
-99700 -85560
-99570 -85560
-p 27 4
-99895 -90700
-100025 -90700
-100025 -90570
-99895 -90570
-p 28 4
-101865 -88340
-101995 -88340
-101995 -88210
-101865 -88210
-p 29 4
-104645 -90700
-104775 -90700
-104775 -90570
-104645 -90570
 Metal4.1
-1 1 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal4 = 0.14
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-92235 -87655 93023 -87655
-92235 -87380 92970 -87380
 Metal4.2
-4 4 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal4 = 0.14
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-80055 -90185 80335 -90185
-79790 -90095 80600 -90095
-e 2 2
-84805 -90185 85085 -90185
-84540 -90095 85350 -90095
-e 3 2
-89555 -90185 89598 -90185
-89282 -90125 89325 -90125
-e 4 2
-89325 -90125 89325 -90025
-89555 -90285 89555 -90185
 Metal4.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal4 around via3
 Via4.1
-14 14 2 Jan 15 04:57:53 2026                   
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via4 = 0.14
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-72825 -85725 72825 -85595
-72965 -85725 72965 -85595
-e 2 2
-72825 -85725 72965 -85725
-72825 -85595 72965 -85595
-e 3 2
-85310 -85695 85310 -85565
-85445 -85695 85445 -85565
-e 4 2
-85315 -88005 85315 -87875
-85445 -88005 85445 -87875
-e 5 2
-85315 -88005 85445 -88005
-85315 -87875 85445 -87875
-e 6 2
-85310 -85695 85445 -85695
-85310 -85565 85445 -85565
-e 7 2
-90045 -89275 90045 -89145
-90175 -89275 90175 -89145
-e 8 2
-90060 -87580 90060 -87450
-90190 -87580 90190 -87450
-e 9 2
-90045 -89275 90175 -89275
-90045 -89145 90175 -89145
-e 10 2
-90060 -87580 90190 -87580
-90060 -87450 90190 -87450
-e 11 2
-92335 -89225 92335 -89160
-92400 -89225 92400 -89160
-e 12 2
-92345 -88145 92345 -87995
-92500 -88145 92500 -87995
-e 13 2
-92335 -89225 92400 -89225
-92335 -89160 92400 -89160
-e 14 2
-92345 -88145 92500 -88145
-92345 -87995 92500 -87995
 Via4.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via4 = 0.16
 Via4.3
-3 3 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via4 must be inside metal4
-p 1 4
-CN ADDER c 1 0 0 1 0 0 0
-90045 -89275
-90175 -89275
-90175 -89145
-90045 -89145
-p 2 4
-92335 -89225
-92400 -89225
-92400 -89160
-92335 -89160
-p 3 4
-92345 -88145
-92500 -88145
-92500 -87995
-92345 -87995
 Via4.4
-1 1 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via4 must be inside metal5
-p 1 4
-CN ADDER c 1 0 0 1 0 0 0
-85315 -88005
-85445 -88005
-85445 -87965
-85315 -87965
 Metal5.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal5 = 0.14
 Metal5.2
-3 3 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal5 = 0.14
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-72585 -86081 72585 -85624
-72750 -85855 72750 -85850
-e 2 2
-72585 -86105 72585 -85155
-72700 -85850 72700 -85410
-e 3 2
-89835 -89590 89835 -87965
-89950 -89335 89950 -87965
 Metal5.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal5 around via4
 Via5.1
-6 6 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via5 = 0.14
-e 1 2
-CN ADDER c 1 0 0 1 0 0 0
-72825 -85725 72825 -85595
-72965 -85725 72965 -85595
-e 2 2
-72825 -85725 72965 -85725
-72825 -85595 72965 -85595
-e 3 2
-75810 -85690 75810 -85565
-75940 -85690 75940 -85565
-e 4 2
-75810 -85690 75940 -85690
-75810 -85565 75940 -85565
-e 5 2
-85310 -85695 85310 -85565
-85450 -85695 85450 -85565
-e 6 2
-85310 -85695 85450 -85695
-85310 -85565 85450 -85565
 Via5.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via5 = 0.16
 Via5.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via5 must be inside metal5
 Via5.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via5 must be inside metal6
 Metal6.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal6 = 0.14
 Metal6.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal6 = 0.14
 Metal6.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal6 around via5
 Via6.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via6 = 0.14
 Via6.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via6 = 0.16
 Via6.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via6 must be inside metal6
 Via6.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via6 must be inside metal7
 Metal7.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal7 = 0.4
 Metal7.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal7 = 0.4
 Metal7.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal7 around via6
 Via7.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via7 = 0.4
 Via7.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via7 = 0.44
 Via7.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via7 must be inside metal7
 Via7.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via7 must be inside metal8
 Metal8.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal8 = 0.4
 Metal8.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal8 = 0.4
 Metal8.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal8 around via7
 Via8.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via8 = 0.4
 Via8.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via8 = 0.44
 Via8.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via8 must be inside metal8
 Via8.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via8 must be inside metal9
 Metal9.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal9 = 0.8
 Metal9.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal9 = 0.8
 Metal9.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal9 around via8
 Via9.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of via9 = 0.8
 Via9.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of via9 = 0.88
 Via9.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via9 must be inside metal9
 Via9.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Via9 must be inside metal10
 Metal10.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum width of metal10 = 0.8
 Metal10.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal10 = 0.8
 Metal10.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum enclosure of metal10 around via9
 Metal1.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
 Metal1.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
 Metal1.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
 Metal1.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
 Metal1.9
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
 Metal2.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
 Metal2.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
 Metal2.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
 Metal2.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
 Metal2.9
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
 Metal3.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
 Metal3.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
 Metal3.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
 Metal3.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
 Metal3.9
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
 Metal4.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
 Metal4.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
 Metal4.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
 Metal4.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
 Metal5.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
 Metal5.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
 Metal5.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
 Metal5.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
 Metal6.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
 Metal6.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
 Metal6.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
 Metal6.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
 Metal7.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
 Metal7.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
 Metal7.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
 Metal8.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
 Metal8.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
 Metal8.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
 Metal9.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
 Metal9.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
 Metal10.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
 Metal10.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
 Grid.1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.9
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.10
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.11
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.12
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.13
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.14
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.15
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.16
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.17
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.18
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.19
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.20
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.21
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.22
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.23
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.24
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.25
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.26
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Antenna.poly
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
 Antenna.metal1
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
 Antenna.metal2
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
 Antenna.metal3
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
 Antenna.metal4
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal5
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal6
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal7
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal8
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal9
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
 Antenna.metal10
-0 0 2 Jan 15 04:57:53 2026                     
+0 0 2 Jan 15 10:56:50 2026                     
 Rule File Pathname: _calibreDRC.rul_
 [Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
