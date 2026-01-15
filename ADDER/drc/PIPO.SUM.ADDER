@@ -2,10 +2,10 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 14-Jan-2026  17:33:20
-User Name : dicd25088
-Host Name : es-tonga.ele.tue.nl
-Directory : /home/dicd26/dicd25088
+Started at: 15-Jan-2026  04:57:52
+User Name : dicd25083
+Host Name : ti.ics.ele.tue.nl
+Directory : /home/dicd26/dicd25083
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-project/ADDER/layout            0        0       0        32783  0      0         0      0             0      0     0     0       0       
+project/ADDER/layout            0        0       0        36703  0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -30,24 +30,28 @@ project/ADDER/layout            0        0          0          0          0     
 Cadence         Cadence         Stream  Stream   
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
-pwell           drawing         2       0         0        308      0        0        0             0    0   0   0     0      0      
-nwell           drawing         3       0         0        289      0        0        0             0    0   0   0     0      0      
-vtg             drawing         6       0         0        1444     0        0        0             0    0   0   0     0      0      
-active          drawing         1       0         0        2699     0        0        0             0    0   0   0     0      0      
-nimplant        drawing         4       0         0        1542     0        0        0             0    0   0   0     0      0      
-pimplant        drawing         5       0         0        1542     0        0        0             0    0   0   0     0      0      
-poly            drawing         9       0         0        2462     0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        7701     0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        6174     0        0        0             0    0   0   0     0      0      
-metal1          net             11      253       0        1293     0        0        0             0    0   0   0     0      0      
-via1            drawing         12      0         0        3204     0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        1834     0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        402      0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        380      0        0        0             0    0   0   0     0      0      
+vtg             drawing         6       0         0        1456     0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        2516     0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        1328     0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        1328     0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        2108     0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        6560     0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        9352     0        0        0             0    0   0   0     0      0      
+metal1          net             11      253       0        1024     0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        4839     0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        2402     0        0        0             0    0   0   0     0      0      
 metal2          net             13      253       0        64       0        0        0             0    0   0   0     0      0      
-via2            drawing         14      0         0        780      0        0        0             0    0   0   0     0      0      
-metal3          drawing         15      0         0        1105     0        0        0             0    0   0   0     0      0      
-metal3          net             15      253       0        192      0        0        0             0    0   0   0     0      0      
-via3            drawing         16      0         0        65       0        0        0             0    0   0   0     0      0      
-metal4          drawing         17      0         0        85       0        0        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        356      0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        1613     0        0        0             0    0   0   0     0      0      
+metal3          net             15      253       0        128      0        0        0             0    0   0   0     0      0      
+via3            drawing         16      0         0        297      0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        301      0        0        0             0    0   0   0     0      0      
+via4            drawing         18      0         0        75       0        0        0             0    0   0   0     0      0      
+metal5          drawing         19      0         0        170      0        0        0             0    0   0   0     0      0      
+via5            drawing         20      0         0        3        0        0        0             0    0   0   0     0      0      
+metal6          drawing         21      0         0        1        0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -55,7 +59,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			32783
+	Rectangles:			36703
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -77,4 +81,4 @@ Summary of Objects Translated:
 	Cells:				1
 Design Libraries: 
 
-DEFINE project	/home/dicd26/dicd25088/project
+DEFINE project	/home/dicd26/dicd25083/project
