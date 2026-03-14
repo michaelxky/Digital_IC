@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: DBUFFER
+* View Name:     schematic
+* Netlisted on:  Jan 10 00:47:12 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    DBUFFER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DBUFFER GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM2 OUT net8 VDD VDD PMOS_VTG W=1.8u L=50n m=1
+MM0 net8 IN VDD VDD PMOS_VTG W=600n L=50n m=1
+MM3 OUT net8 GND GND NMOS_VTG W=1.08u L=50n m=1
+MM1 net8 IN GND GND NMOS_VTG W=360.0n L=50n m=1
+.ENDS
+

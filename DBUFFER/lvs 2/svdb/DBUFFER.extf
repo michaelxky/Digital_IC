@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1768002434 1768002434
+lvs_ExtOutFile RUNDIR /home/dicd26/dicd25088/project/DBUFFER/lvs
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST DBUFFER.sp
+lvs_ExtOutFile EXTRACTION_REPORT DBUFFER.lvs.report.ext

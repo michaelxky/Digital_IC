@@ -1,0 +1,506 @@
+\o Program:		@(#)$CDS: libManager version 23.1 - CAT38 04/15/2024 12:23 (sjfdcl749) $
+\o Sub version:		sub-version  p323 
+\o Arguments:		-mpssession virtuoso2080855 -mpshost ti.ics.ele.tue.nl -masterPID 2080855 -ADVM 
+\o Working Directory:	ti.ics.ele.tue.nl:/home/dicd26/dicd25093/project
+\o 64-bit offsets
+\o Qt version: 		5.15.9
+\o Log file is "/home/dicd26/dicd25093/project/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS virtuoso types registered: 68
+\a nrResizeWindow(cdsLibManager list(0 224 1536 793))
+\o changeWorkingDir("/home/dicd26/dicd25093/project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Session hidden cells enabled.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADD"
+\a cdsLibManager->cellLineEdit->value = "ADD"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->cellListBox->value = "ADD"
+\a cdsLibManager->cellLineEdit->value = "ADD"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADD"
+\a cdsLibManager->cellLineEdit->value = "ADD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(945 242 1536 793))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "project"
+\a copyViewForm->CopyFromCell->value = "ADDER"
+\a copyViewForm->CopyFromView->value = "layout"
+\a copyViewForm->CopyToLibrary->value = "project"
+\a copyViewForm->CopyToCell->value = "ADDER"
+\a copyViewForm->CopyToView->value = "layout"
+\a copyViewForm->ViewsToCopy->value = "layout"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
+\a nrSetWindowVisibility(copyViewForm "show")
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(1459 249 488 698))
+\a copyViewForm->OK->value = t
+\o ERROR (CLM-208): The copy source and destination are identical.\n\nThe copy can't be done.
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(1549 531 308 134))
+\a errorDialog->errorOkButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(copyViewForm)
+\a copyViewForm->CopyToCell->value = "ADDE"
+\a nrDialogAccept(copyViewForm)
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "project".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1567 532 273 133))
+\a nrResizeWindow(workingDialogForm list(1567 554 273 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADD"
+\a cdsLibManager->cellLineEdit->value = "ADD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 57 25 2 "ADDE")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1390 386 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1544 513 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "ADDE" from library "project".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1575 554 268 133))
+\o Deleted cell 'project/ADDE'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "project"
+\a copyViewForm->CopyFromCell->value = "ADDER"
+\a copyViewForm->CopyFromView->value = "layout"
+\a copyViewForm->CopyToLibrary->value = "project"
+\a copyViewForm->CopyToCell->value = "ADDER"
+\a copyViewForm->CopyToView->value = "layout"
+\a copyViewForm->ViewsToCopy->value = "layout"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(1459 249 488 698))
+\a copyViewForm->CopyToCell->value = "ADDE"
+\a copyViewForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "ADDER_TEST"
+\a cdsLibManager->cellLineEdit->value = "ADDER_TEST"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 566 21 2 "ADDER")
+\a lmgrLogShowPopup("mainListPopup1" 543 24 2 "ADDER")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyFromLibrary->value = "project"
+\a copyCellForm->CopyFromCell->value = "ADDER"
+\a copyCellForm->CopyToLibrary->value = "project"
+\a copyCellForm->CopyToCell->value = "ADDER"
+\a copyCellForm->ViewsToCopy->value = "drc layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(1459 269 488 659))
+\a nrDialogAccept(copyCellForm)
+\a copyCellForm->OK->value = t
+\o ERROR (CLM-208): The copy source and destination are identical.\n\nThe copy can't be done.
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(1549 553 308 134))
+\a errorDialog->errorOkButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToCell->value = "ADDE"
+\a nrDialogAccept(copyCellForm)
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "project".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyCellForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1567 554 273 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "ADDER_TEST"
+\a cdsLibManager->cellLineEdit->value = "ADDER_TEST"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 109 40 2 "ADDER")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1390 386 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1544 513 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "ADDER" from library "project".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1575 554 268 133))
+\o Did not delete cell 'project/ADDER'.
+\o Failed to delete cell "ADDER" at "/home/dicd26/dicd25093/project/ADDER".
+\o Deletion of cell done. 1 of 1 failed.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->cellListBox->value = "AND"
+\a cdsLibManager->cellLineEdit->value = "AND"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewListBox->value = "drc"
+\a cdsLibManager->viewLineEdit->value = "drc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewRefreshButton->value = t
+\o MPS request: refresh library list
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "ADDE"
+\a cdsLibManager->cellLineEdit->value = "ADDE"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 48 31 2 "ADDE")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "ADDE"
+\a nrSetWindowVisibility(basicRenameForm "show")
+\a basicRenameForm->basicRenameToEdit->value = "ADDE"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1584 503 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "ADDER"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "ADDE" to "ADDER" in library "project".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1569 554 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(basicRenameForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ADDER"
+\a cdsLibManager->cellLineEdit->value = "ADDER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
