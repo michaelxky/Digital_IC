@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/dicd26/dicd25088/project/ADDER/PEX
+pex_PexParam LAYOUT_PRIMARY ADDER
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {ADDER "" ADDER.pdb "" } } 

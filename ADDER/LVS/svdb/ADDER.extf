@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1774730672 1774730672
+lvs_ExtOutFile RUNDIR /home/dicd26/dicd25088/project/ADDER/LVS
+lvs_ExtOutFile RULES_FILE _calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST ADDER.sp
+lvs_ExtOutFile EXTRACTION_REPORT ADDER.lvs.report.ext

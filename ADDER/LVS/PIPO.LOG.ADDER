@@ -1,0 +1,73 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
+          : sub-version  IC23.1-64b.ISR7.27 
+Started at: 28-Mar-2026  21:44:18
+User Name : dicd25088
+Host Name : es-tonga.ele.tue.nl
+Directory : /home/dicd26/dicd25088
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/dicd26/dicd25088/project/ADDER/LVS/ADDER.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 project
+strmFile                                /home/dicd26/dicd25088/project/ADDER/LVS/ADDER.calibre.db
+topCell                                 ADDER
+view                                    layout1
+runDir                                  /home/dicd26/dicd25088/project/ADDER/LVS/
+logFile                                 PIPO.LOG.ADDER
+summaryFile                             PIPO.SUM.ADDER
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658300.
+INFO (XSTRM-223): 2. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658301.
+INFO (XSTRM-223): 3. Translating stdVia NCSU_TechLib_FreePDK45/M5_M4/layout as STRUCTURE M5_M4_CDNS_774730658302.
+INFO (XSTRM-223): 4. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658303.
+INFO (XSTRM-223): 5. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658304.
+INFO (XSTRM-223): 6. Translating stdVia NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_774730658305.
+INFO (XSTRM-223): 7. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658306.
+INFO (XSTRM-223): 8. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658307.
+INFO (XSTRM-223): 9. Translating cellview project/DBUFFER/layout as STRUCTURE DBUFFER.
+INFO (XSTRM-223): 10. Translating cellview project/BLACK/layout as STRUCTURE BLACK.
+INFO (XSTRM-223): 11. Translating cellview project/GP/layout as STRUCTURE GP.
+INFO (XSTRM-223): 12. Translating cellview project/GREYCELLHP/layout as STRUCTURE GREYCELLHP.
+INFO (XSTRM-223): 13. Translating cellview project/XOR/layout as STRUCTURE XOR.
+INFO (XSTRM-223): 14. Translating cellview project/ADDER/layout1 as STRUCTURE ADDER.
+
+Summary of Objects Translated:
+	Scalar Instances:                       82
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             993
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           463
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               373
+	Text:                                   14
+	TextDisplay:                            67
+	Cells:                                  14
+
+Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 31920KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

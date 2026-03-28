@@ -1,0 +1,64 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP mn(NMOS_THKOX) l w
+* KEEP_PROP mn(NMOS_VTG) l w
+* KEEP_PROP mn(NMOS_VTH) l w
+* KEEP_PROP mn(NMOS_VTL) l w
+* KEEP_PROP mp(PMOS_THKOX) l w
+* KEEP_PROP mp(PMOS_VTG) l w
+* KEEP_PROP mp(PMOS_VTH) l w
+* KEEP_PROP mp(PMOS_VTL) l w
+* KEEP_PROP_END
+*
+.SUBCKT BLACK
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT DBUFFER
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_CDNS_774714328837
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT GREYCELLHP
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT GP
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT XOR
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_4
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_5
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ADDER
+* nothing transcripted
+.ENDS
+***************************************

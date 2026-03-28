@@ -1,0 +1,109 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
+          : sub-version  IC23.1-64b.ISR7.27 
+Started at: 28-Mar-2026  17:12:08
+User Name : dicd25088
+Host Name : es-tonga.ele.tue.nl
+Directory : /home/dicd26/dicd25088
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0       0        4      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M5_M4/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+project/ADDER/layout1           82       0       0        64     0      373       0      52            0      0     0     0       0       
+project/BLACK/layout            0        0       0        208    0      0         8      0             0      0     0     0       0       
+project/DBUFFER/layout          0        0       0        267    0      0         0      4             0      0     0     0       0       
+project/GP/layout               0        0       0        220    0      0         0      6             0      0     0     0       0       
+project/GREYCELLHP/layout       0        0       0        98     0      0         6      0             0      0     0     0       0       
+project/XOR/layout              0        0       0        110    0      0         0      5             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+--------------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
+--------------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M3_M2/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0          0          0          0          0     0        0        0         0         0        
+NCSU_TechLib_FreePDK45/M5_M4/layout                             0        0          0          0          0          0     0        0        0         0         0        
+project/ADDER/layout1           0        0          0          0          0          0     0        0        0         463       0        
+project/BLACK/layout            0        0          0          0          0          0     0        0        0         0         0        
+project/DBUFFER/layout          0        0          0          0          0          0     0        0        0         0         0        
+project/GP/layout               0        0          0          0          0          0     0        0        0         0         0        
+project/GREYCELLHP/layout       0        0          0          0          0          0     0        0        0         0         0        
+project/XOR/layout              0        0          0          0          0          0     0        0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+pwell           drawing         2       0         0        12       0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        12       0        0        0             0    0   0   0     0      0      
+vtg             drawing         6       0         0        44       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        76       0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        40       0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        40       0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        64       0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        197      0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        241      0        0        4             0    0   0   0     0      0      
+metal1          net             11      253       0        31       0        0        57            0    0   0   0     0      0      
+via1            drawing         12      0         0        97       0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        63       0        0        0             0    0   0   0     0      86     
+metal2          net             13      253       0        16       0        14       2             0    0   0   0     0      0      
+via2            drawing         14      0         0        19       0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        26       0        0        0             0    0   0   0     0      182    
+metal3          net             15      253       0        4        0        0        4             0    0   0   0     0      0      
+via3            drawing         16      0         0        4        0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        5        0        0        0             0    0   0   0     0      52     
+via4            drawing         18      0         0        1        0        0        0             0    0   0   0     0      0      
+metal5          drawing         19      0         0        1        0        0        0             0    0   0   0     0      53     
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		82
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			993
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Stitches:			0
+	Standard Vias:			463
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			373
+	Text:				14
+	TextDisplay:		67
+	Cells:				14
+Design Libraries: 
+
+DEFINE NCSU_TechLib_FreePDK45	/opt/tools/technology/ncsu/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE project	/home/dicd26/dicd25088/project

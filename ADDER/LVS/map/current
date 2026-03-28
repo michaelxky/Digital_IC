@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ADDER"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/dicd26/dicd25088/project/ADDER/LVS"
+ )
+( model
+( "project/AOI21/schematic" "AOI21" )
+( "project/GREYCELLHP/schematic" "GREYCELLHP" )
+( "project/XOR/schematic" "XOR" )
+( "project/ADDER/schematic" "ADDER" )
+( "project/BLACK/schematic" "BLACK" )
+( "project/AND/schematic" "AND" )
+( "project/INV/schematic" "INV" )
+( "project/GP/schematic" "GP" )
+( "project/DBUFFER/schematic" "DBUFFER" )
+ )
+( "ADDER" "ihnl/cds8/map" )
+( "GP" "ihnl/cds5/map" )
+( "AOI21" "ihnl/cds0/map" )
+( "BLACK" "ihnl/cds3/map" )
+( "XOR" "ihnl/cds4/map" )
+( "DBUFFER" "ihnl/cds6/map" )
+( "AND" "ihnl/cds2/map" )
+( "INV" "ihnl/cds1/map" )
+( "GREYCELLHP" "ihnl/cds7/map" )
+ )

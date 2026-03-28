@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+project/DBUFFER/schematic DBUFFER
+project/BLACK/schematic BLACK
+project/AOI21/schematic AOI21
+project/INV/schematic INV
+project/GP/schematic GP
+project/GREYCELLHP/schematic GREYCELLHP
+project/AND/schematic AND
+project/XOR/schematic XOR
+project/ADDER/schematic ADDER
+$endmodel
+$net
+$endnet
+$param
+$endparam

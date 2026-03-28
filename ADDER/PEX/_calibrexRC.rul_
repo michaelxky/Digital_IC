@@ -1,0 +1,25 @@
+//
+//  Rule file generated on Sat Mar 28 17:12:21 2026
+//  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "ADDER.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "ADDER"
+
+SOURCE PATH "ADDER.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "ADDER"
+
+PEX NETLIST "ADDER.pex.netlist" ELDO SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "ADDER.lvs.report"
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/tools/technology/ncsu/FreePDK45/ncsu_basekit/techfile/calibre/calibrexRC.rul"

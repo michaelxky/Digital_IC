@@ -1,0 +1,229 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project
+* Top Cell Name: ADDER
+* View Name:     schematic
+* Netlisted on:  Mar 28 21:44:30 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AOI21
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AOI21 A1 A2 B GND OUT VDD
+*.PININFO A1:I A2:I B:I OUT:O GND:B VDD:B
+MM2 net1 B OUT VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 VDD A1 net1 VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net1 A2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 GND B OUT GND NMOS_VTG W=90n L=50n m=1
+MM4 net13 A1 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 OUT A2 net13 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    INV
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM0 OUT IN VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 OUT IN GND GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MM4 OUT net2 VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 net2 A VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 net2 B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM5 OUT net2 GND GND NMOS_VTG W=90n L=50n m=1
+MM3 net1 B GND GND NMOS_VTG W=90n L=50n m=1
+MM2 net2 A net1 GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    BLACK
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BLACK GND Gh Gl Gout Ph Pl Pout VDD
+*.PININFO Gh:I Gl:I Ph:I Pl:I Gout:O Pout:O GND:B VDD:B
+XI0 Ph Gl Gh GND net4 VDD / AOI21
+XI4 GND net4 Gout VDD / INV
+XI3 Ph Pl GND Pout VDD / AND
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+MM7 Y Z VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM4 Z BBAR A VDD PMOS_VTG W=180.0n L=50n m=1
+MM3 Z A BBAR VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 BBAR B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM2 Y Z GND GND NMOS_VTG W=90n L=50n m=1
+MM6 Z A B GND NMOS_VTG W=90n L=50n m=1
+MM0 BBAR B GND GND NMOS_VTG W=90n L=50n m=1
+MM5 Z B A GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    GP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT GP A B G GND P VDD
+*.PININFO A:I B:I G:O P:O GND:B VDD:B
+XI0 A B GND G VDD / AND
+XI4 A B GND VDD P / XOR
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    DBUFFER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DBUFFER GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM2 OUT net8 VDD VDD PMOS_VTG W=1.8u L=50n m=1
+MM0 net8 IN VDD VDD PMOS_VTG W=600n L=50n m=1
+MM3 OUT net8 GND GND NMOS_VTG W=1.08u L=50n m=1
+MM1 net8 IN GND GND NMOS_VTG W=360.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    GREYCELLHP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT GREYCELLHP GG GND Gh Gl Ph VDD
+*.PININFO Gh:I Gl:I Ph:I GG:O GND:B VDD:B
+XI0 Ph Gl Gh GND net4 VDD / AOI21
+XI1 GND net4 GG VDD / INV
+.ENDS
+
+************************************************************************
+* Library Name: project
+* Cell Name:    ADDER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADDER A<15> A<14> A<13> A<12> A<11> A<10> A<9> A<8> A<7> A<6> A<5> 
++ A<4> A<3> A<2> A<1> A<0> B<15> B<14> B<13> B<12> B<11> B<10> B<9> B<8> B<7> 
++ B<6> B<5> B<4> B<3> B<2> B<1> B<0> Cin Cout GND S<15> S<14> S<13> S<12> 
++ S<11> S<10> S<9> S<8> S<7> S<6> S<5> S<4> S<3> S<2> S<1> S<0> VDD
+*.PININFO A<15>:I A<14>:I A<13>:I A<12>:I A<11>:I A<10>:I A<9>:I A<8>:I A<7>:I 
+*.PININFO A<6>:I A<5>:I A<4>:I A<3>:I A<2>:I A<1>:I A<0>:I B<15>:I B<14>:I 
+*.PININFO B<13>:I B<12>:I B<11>:I B<10>:I B<9>:I B<8>:I B<7>:I B<6>:I B<5>:I 
+*.PININFO B<4>:I B<3>:I B<2>:I B<1>:I B<0>:I Cin:I Cout:O S<15>:O S<14>:O 
+*.PININFO S<13>:O S<12>:O S<11>:O S<10>:O S<9>:O S<8>:O S<7>:O S<6>:O S<5>:O 
+*.PININFO S<4>:O S<3>:O S<2>:O S<1>:O S<0>:O GND:B VDD:B
+XBlack3_12 GND G12_12 G11_8 G12_8 P12_12 P11_8 P12_8 VDD / BLACK
+XBlack3_13 GND G13_12 G11_8 G13_8 P13_12 P11_8 P13_8 VDD / BLACK
+XBlack3_14 GND G14_12 G11_8 G14_8 P14_12 P11_8 P14_8 VDD / BLACK
+XBlack3_15 GND G15_12 G11_8 G15_8 P15_12 P11_8 P15_8 VDD / BLACK
+XBlack2_11 GND G11_10 G9_8 G11_8 P11_10 P9_8 P11_8 VDD / BLACK
+XBlack2_10 GND G10_10 G9_8 G10_8 P10_10 P9_8 P10_8 VDD / BLACK
+XBlack2_14 GND G14_14 G13_12 G14_12 P14_14 P13_12 P14_12 VDD / BLACK
+XBlack2_15 GND G15_14 G13_12 G15_12 P15_14 P13_12 P15_12 VDD / BLACK
+XBlack2_7 GND G7_6 G5_4 G7_4 P7_6 P5_4 P7_4 VDD / BLACK
+XBlack2_6 GND G6_6 G5_4 G6_4 P6_6 P5_4 P6_4 VDD / BLACK
+XBlack1_5 GND G5_5 G4_4 G5_4 P5_5 P4_4 P5_4 VDD / BLACK
+XBlack1_9 GND G9_9 G8_8 G9_8 P9_9 P8_8 P9_8 VDD / BLACK
+XBlack1_7 GND G7_7 G6_6 G7_6 P7_7 P6_6 P7_6 VDD / BLACK
+XBlack1_11 GND G11_11 G10_10 G11_10 P11_11 P10_10 P11_10 VDD / BLACK
+XBlack1_13 GND G13_13 G12_12 G13_12 P13_13 P12_12 P13_12 VDD / BLACK
+XBlack1_15 GND G15_15 G14_14 G15_14 P15_15 P14_14 P15_14 VDD / BLACK
+XBlack1_3 GND G3_3 G2_2 G3_2 P3_3 P2_2 P3_2 VDD / BLACK
+XGP00 A<0> B<0> G1_1 GND P1_1 VDD / GP
+XGP01 A<1> B<1> G2_2 GND P2_2 VDD / GP
+XGP02 A<2> B<2> G3_3 GND P3_3 VDD / GP
+XGP03 A<3> B<3> G4_4 GND P4_4 VDD / GP
+XGP04 A<4> B<4> G5_5 GND P5_5 VDD / GP
+XGP05 A<5> B<5> G6_6 GND P6_6 VDD / GP
+XGP06 A<6> B<6> G7_7 GND P7_7 VDD / GP
+XGP07 A<7> B<7> G8_8 GND P8_8 VDD / GP
+XGP08 A<8> B<8> G9_9 GND P9_9 VDD / GP
+XGP09 A<9> B<9> G10_10 GND P10_10 VDD / GP
+XGP10 A<10> B<10> G11_11 GND P11_11 VDD / GP
+XGP11 A<11> B<11> G12_12 GND P12_12 VDD / GP
+XGP12 A<12> B<12> G13_13 GND P13_13 VDD / GP
+XGP13 A<13> B<13> G14_14 GND P14_14 VDD / GP
+XGP14 A<14> B<14> G15_15 GND P15_15 VDD / GP
+XGP15 A<15> B<15> G16_16 GND P16_16 VDD / GP
+XSUM15 G15_0 P16_16 GND VDD net31 / XOR
+XSUM14 G14_0 P15_15 GND VDD net28 / XOR
+XSUM13 G13_0 P14_14 GND VDD net26 / XOR
+XSUM12 G12_0 P13_13 GND VDD net24 / XOR
+XSUM11 G11_0 P12_12 GND VDD net22 / XOR
+XSUM10 G10_0 P11_11 GND VDD net20 / XOR
+XSUM09 G9_0 P10_10 GND VDD net18 / XOR
+XSUM08 G8_0 P9_9 GND VDD net16 / XOR
+XSUM07 G7_0 P8_8 GND VDD net14 / XOR
+XSUM06 G6_0 P7_7 GND VDD net12 / XOR
+XSUM05 G5_0 P6_6 GND VDD net10 / XOR
+XSUM04 G4_0 P5_5 GND VDD net8 / XOR
+XSUM03 G3_0 P4_4 GND VDD net6 / XOR
+XSUM02 G2_0 P3_3 GND VDD net4 / XOR
+XSUM01 G1_0 P2_2 GND VDD net2 / XOR
+XSUM00 Cin P1_1 GND VDD net35 / XOR
+XI90 GND net35 S<0> VDD / DBUFFER
+XI91 GND net2 S<1> VDD / DBUFFER
+XI92 GND net4 S<2> VDD / DBUFFER
+XI93 GND net6 S<3> VDD / DBUFFER
+XI94 GND net8 S<4> VDD / DBUFFER
+XI95 GND net10 S<5> VDD / DBUFFER
+XI96 GND net12 S<6> VDD / DBUFFER
+XI97 GND net14 S<7> VDD / DBUFFER
+XI98 GND net16 S<8> VDD / DBUFFER
+XI99 GND net18 S<9> VDD / DBUFFER
+XI100 GND net20 S<10> VDD / DBUFFER
+XI101 GND net22 S<11> VDD / DBUFFER
+XI102 GND net24 S<12> VDD / DBUFFER
+XI103 GND net26 S<13> VDD / DBUFFER
+XI104 GND net28 S<14> VDD / DBUFFER
+XI106 GND net33 Cout VDD / DBUFFER
+XI105 GND net31 S<15> VDD / DBUFFER
+XCO net33 GND G16_16 G15_0 P16_16 VDD / GREYCELLHP
+XGrey4_14 G14_0 GND G14_8 G7_0 P14_8 VDD / GREYCELLHP
+XGrey4_15 G15_0 GND G15_8 G7_0 P15_8 VDD / GREYCELLHP
+XGrey4_12 G12_0 GND G12_8 G7_0 P12_8 VDD / GREYCELLHP
+XGrey4_13 G13_0 GND G13_8 G7_0 P13_8 VDD / GREYCELLHP
+XGrey4_10 G10_0 GND G10_8 G7_0 P10_8 VDD / GREYCELLHP
+XGrey4_11 G11_0 GND G11_8 G7_0 P11_8 VDD / GREYCELLHP
+XGrey4_8 G8_0 GND G8_8 G7_0 P8_8 VDD / GREYCELLHP
+XGrey4_9 G9_0 GND G9_8 G7_0 P9_8 VDD / GREYCELLHP
+XGrey3_6 G6_0 GND G6_4 G3_0 P6_4 VDD / GREYCELLHP
+XGrey3_7 G7_0 GND G7_4 G3_0 P7_4 VDD / GREYCELLHP
+XGrey3_4 G4_0 GND G4_4 G3_0 P4_4 VDD / GREYCELLHP
+XGrey2_3 G3_0 GND G3_2 G1_0 P3_2 VDD / GREYCELLHP
+XGrey2_2 G2_0 GND G2_2 G1_0 P2_2 VDD / GREYCELLHP
+XGrey3_5 G5_0 GND G5_4 G3_0 P5_4 VDD / GREYCELLHP
+XGrey1_1 G1_0 GND G1_1 Cin P1_1 VDD / GREYCELLHP
+.ENDS
+

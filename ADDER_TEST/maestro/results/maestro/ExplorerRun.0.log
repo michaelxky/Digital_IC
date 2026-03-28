@@ -1,49 +1,49 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat Mar 14 12:07:48 2026 
+Current time: Sat Mar 28 21:30:08 2026 
 Best design point: 1
 Design specs: 
 	project_ADDER_TEST_1	corner	Nominal - 
-	MeanSRise		72.17p
-	MaxRsieS		72.63p
-	MaxFallS		74.02p
-	MeanSFall		73.3p
-	RiseC		72.78p
-	FallC		74.13p
-	F0		72.78p
-	F1		74.13p
-	F2		72.18p
-	F3		73.2p
-	F4		72.63p
-	F5		74.02p
-	F6		72p
-	F7		73.09p
+	MeanSRise		72.3p
+	MaxRsieS		74.67p
+	MaxFallS		77.28p
+	MeanSFall		73.53p
+	RiseC		72.58p
+	FallC		74.36p
+	F0		72.58p
+	F1		74.36p
+	F2		72.12p
+	F3		73.18p
+	F4		74.67p
+	F5		77.28p
+	F6		72.31p
+	F7		73.33p
 	F8		72.21p
-	F9		73.31p
+	F9		73.29p
 	F10		72.15p
-	F11		73.33p
-	F12		72.08p
-	F13		73.34p
-	F14		72.17p
-	F15		73.03p
-	F16		72.1p
-	F17		73.17p
-	F18		72.11p
-	F19		73.28p
-	F20		72.17p
-	F21		73.29p
-	F22		72.1p
-	F23		73.31p
-	F24		72.01p
-	F25		73.31p
-	F26		72.15p
-	F27		73.17p
+	F11		73.2p
+	F12		72.02p
+	F13		73.26p
+	F14		72.16p
+	F15		73.27p
+	F16		72.13p
+	F17		73.25p
+	F18		72.09p
+	F19		73.27p
+	F20		72.16p
+	F21		73.3p
+	F22		72.14p
+	F23		73.19p
+	F24		71.92p
+	F25		73.3p
+	F26		72.12p
+	F27		73.25p
 	F28		72.15p
-	F29		73.19p
-	F30		72.08p
-	F31		73.15p
-	F32		72.47p
-	F33		73.56p
+	F29		73.23p
+	F30		71.95p
+	F31		73.27p
+	F32		72.46p
+	F33		73.58p
 	E7		0
 	E8		0
 	E9		0
@@ -93,4 +93,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Sat Mar 14 12:10:44 2026 
+Current time: Sat Mar 28 21:32:59 2026 

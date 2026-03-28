@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Sat Mar 28 17:12:26 2026 " "v2023.4_17.10" "-xrc -pdb -rcc -turbo 1 _calibrexRC.rul_"
+"Sat Mar 28 17:12:30 2026 " "v2023.4_17.10" "-xrc -fmt -all _calibrexRC.rul_"

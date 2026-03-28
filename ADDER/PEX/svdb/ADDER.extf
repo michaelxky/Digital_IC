@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1774714343 1774714343
+lvs_ExtOutFile RUNDIR /home/dicd26/dicd25088/project/ADDER/PEX
+lvs_ExtOutFile RULES_FILE _calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/ADDER.sp
+lvs_ExtOutFile EXTRACTION_REPORT ADDER.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/ADDER.pdsp }
