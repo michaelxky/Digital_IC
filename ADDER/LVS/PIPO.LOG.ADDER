@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 28-Mar-2026  21:44:18
+Started at: 28-Mar-2026  22:09:05
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -28,14 +28,14 @@ convertDot                              node
 convertPcellPin                         geometry
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658300.
-INFO (XSTRM-223): 2. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658301.
-INFO (XSTRM-223): 3. Translating stdVia NCSU_TechLib_FreePDK45/M5_M4/layout as STRUCTURE M5_M4_CDNS_774730658302.
-INFO (XSTRM-223): 4. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658303.
-INFO (XSTRM-223): 5. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658304.
-INFO (XSTRM-223): 6. Translating stdVia NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_774730658305.
-INFO (XSTRM-223): 7. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774730658306.
-INFO (XSTRM-223): 8. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774730658307.
+INFO (XSTRM-223): 1. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774732145690.
+INFO (XSTRM-223): 2. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774732145691.
+INFO (XSTRM-223): 3. Translating stdVia NCSU_TechLib_FreePDK45/M5_M4/layout as STRUCTURE M5_M4_CDNS_774732145692.
+INFO (XSTRM-223): 4. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774732145693.
+INFO (XSTRM-223): 5. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774732145694.
+INFO (XSTRM-223): 6. Translating stdVia NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_774732145695.
+INFO (XSTRM-223): 7. Translating stdVia NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_CDNS_774732145696.
+INFO (XSTRM-223): 8. Translating stdVia NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_774732145697.
 INFO (XSTRM-223): 9. Translating cellview project/DBUFFER/layout as STRUCTURE DBUFFER.
 INFO (XSTRM-223): 10. Translating cellview project/BLACK/layout as STRUCTURE BLACK.
 INFO (XSTRM-223): 11. Translating cellview project/GP/layout as STRUCTURE GP.
@@ -48,7 +48,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             993
+	Rectangles:                             994
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -69,5 +69,5 @@ Summary of Objects Translated:
 	TextDisplay:                            67
 	Cells:                                  14
 
-Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 31920KB
+Elapsed Time: 6.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 31936KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

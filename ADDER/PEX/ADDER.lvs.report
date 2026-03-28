@@ -16,7 +16,7 @@ LAYOUT NAME:              svdb/ADDER.sp ('ADDER')
 SOURCE NAME:              ADDER.src.net ('ADDER')
 RULE FILE:                _calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Sat Mar 28 17:12:23 2026
+CREATION TIME:            Sat Mar 28 22:12:20 2026
 CURRENT DIRECTORY:        /home/dicd26/dicd25088/project/ADDER/PEX
 USER NAME:                dicd25088
 CALIBRE VERSION:          v2023.4_17.10    Mon Oct 2 13:59:22 PDT 2023

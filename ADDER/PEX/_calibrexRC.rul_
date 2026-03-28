@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Sat Mar 28 17:12:21 2026
+//  Rule file generated on Sat Mar 28 22:12:17 2026
 //  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:59:27 PDT 2023
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -14,7 +14,7 @@ SOURCE PATH "ADDER.src.net"
 SOURCE SYSTEM SPICE
 SOURCE PRIMARY "ADDER"
 
-PEX NETLIST "ADDER.pex.netlist" ELDO SOURCENAMES
+PEX NETLIST "ADDER.pex.netlist" CALIBREVIEW SOURCENAMES
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 

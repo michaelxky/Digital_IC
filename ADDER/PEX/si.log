@@ -1,6 +1,6 @@
-2026/03/28 17:12:09 WARNING (/opt/tools/cadence/2024-25/RHELx86/IC_23.10.070/tools.lnx86/bin/cdnsEnvCheck): This OS does not appear to be a Cadence supported Linux configuration (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP to suppress). For more info, please run <cdsroot>/tools/bin/checkSysConf <productId>
+2026/03/28 22:12:04 WARNING (/opt/tools/cadence/2024-25/RHELx86/IC_23.10.070/tools.lnx86/bin/cdnsEnvCheck): This OS does not appear to be a Cadence supported Linux configuration (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP to suppress). For more info, please run <cdsroot>/tools/bin/checkSysConf <productId>
 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 2.62s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 2.56s.
 
 *WARNING* The directory: '/home/dicd26/dicd25088/hj' does not exist
 	but was defined in libFile '/home/dicd26/dicd25088/cds.lib' for Lib 'hj'.
@@ -12,5 +12,5 @@ Loading hnlInit.cxt
 Running Artist Hierarchical Netlisting ...
 
 Loading cdf.cxt 
-End netlisting Mar 28 17:12:21 2026
+End netlisting Mar 28 22:12:16 2026
 

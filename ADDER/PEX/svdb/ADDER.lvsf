@@ -11,4 +11,4 @@ lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT ADDER.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST ADDER.src.net
 lvs_LvsOutFile RULES_FILE _calibrexRC.rul_
-lvs_LvsRunTimes 1774714343 1774714343
+lvs_LvsRunTimes 1774732340 1774732340

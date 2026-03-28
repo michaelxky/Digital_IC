@@ -1,4 +1,5 @@
 %	ADDER	ADDER
+VDD	VDD	0	x 0 0
 B<0>	B<0>	0	x 0 0
 A<0>	A<0>	0	x 0 0
 CIN	CIN	0	x 0 0
@@ -19,7 +20,6 @@ GND	GND	0	x 0 0
 B<5>	B<5>	0	x 0 0
 A<5>	A<5>	0	x 0 0
 S<5>	S<5>	0	x 0 0
-VDD	VDD	0	x 0 0
 B<6>	B<6>	0	x 0 0
 A<6>	A<6>	0	x 0 0
 S<6>	S<6>	0	x 0 0

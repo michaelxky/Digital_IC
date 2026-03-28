@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR7.27 
-Started at: 28-Mar-2026  21:44:18
+Started at: 28-Mar-2026  22:09:05
 User Name : dicd25088
 Host Name : es-tonga.ele.tue.nl
 Directory : /home/dicd26/dicd25088
@@ -23,7 +23,7 @@ NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0      
 NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
 NCSU_TechLib_FreePDK45/M4_M3/layout                             0        0       0        4      0      0         0      0             0      0     0     0       0       
 NCSU_TechLib_FreePDK45/M5_M4/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
-project/ADDER/layout1           82       0       0        64     0      373       0      52            0      0     0     0       0       
+project/ADDER/layout1           82       0       0        65     0      373       0      52            0      0     0     0       0       
 project/BLACK/layout            0        0       0        208    0      0         8      0             0      0     0     0       0       
 project/DBUFFER/layout          0        0       0        267    0      0         0      4             0      0     0     0       0       
 project/GP/layout               0        0       0        220    0      0         0      6             0      0     0     0       0       
@@ -64,7 +64,7 @@ nimplant        drawing         4       0         0        40       0        0  
 pimplant        drawing         5       0         0        40       0        0        0             0    0   0   0     0      0      
 poly            drawing         9       0         0        64       0        0        0             0    0   0   0     0      0      
 contact         drawing         10      0         0        197      0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        241      0        0        4             0    0   0   0     0      0      
+metal1          drawing         11      0         0        242      0        0        4             0    0   0   0     0      0      
 metal1          net             11      253       0        31       0        0        57            0    0   0   0     0      0      
 via1            drawing         12      0         0        97       0        0        0             0    0   0   0     0      0      
 metal2          drawing         13      0         0        63       0        0        0             0    0   0   0     0      86     
@@ -83,7 +83,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			993
+	Rectangles:			994
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
